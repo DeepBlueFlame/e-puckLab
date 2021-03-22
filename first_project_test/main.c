@@ -47,8 +47,8 @@ int main(void)
     	chThdSleepMilliseconds(1000);
 
     	// Motor setting for running
-    	left_motor_set_speed(-300);
-    	right_motor_set_speed(300);
+    	left_motor_set_speed(-420);
+    	right_motor_set_speed(420);
     	//waits 1 second
         chThdSleepMilliseconds(1000);
     }

@@ -1450,14 +1450,14 @@ Disassembly of section .text:
  800123e:	f002 fb7f 	bl	8003940 <chThdSleep>
  8001242:	4620      	mov	r0, r4
  8001244:	f001 fa94 	bl	8002770 <left_motor_set_speed>
- 8001248:	f44f 7096 	mov.w	r0, #300	; 0x12c
+ 8001248:	f44f 70d2 	mov.w	r0, #420	; 0x1a4
  800124c:	f001 fab8 	bl	80027c0 <right_motor_set_speed>
  8001250:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
  8001254:	f002 fb74 	bl	8003940 <chThdSleep>
  8001258:	e7ec      	b.n	8001234 <main+0x24>
  800125a:	bf00      	nop
  800125c:	20000800 	.word	0x20000800
- 8001260:	fffffed4 	.word	0xfffffed4
+ 8001260:	fffffe5c 	.word	0xfffffe5c
 	...
 
 08001270 <__stack_chk_fail>:
